@@ -6,7 +6,7 @@ from torchdiffeq import odeint_adjoint as odeint
 import matplotlib.pyplot as plt
 from contextlib import suppress
 
-device = 'cuda' if torch.cuda.is_available() else 'cpu')
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 def visualize(columns, t, true_y, pred_y, true_dydt, pred_dydt, odefunc, itr, selected_species, training_species):
     fig = plt.figure(figsize=(12, 4), facecolor='white')
