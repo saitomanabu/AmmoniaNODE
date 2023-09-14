@@ -1,4 +1,3 @@
-Manabu Saito, Jiangkuan Xing, Jun Nagao, Ryoichi Kurose,
 Data-driven simulation of ammonia combustion using neural ordinary differential equations (NODE),
 Applications in Energy and Combustion Science,
 Volume 16,
